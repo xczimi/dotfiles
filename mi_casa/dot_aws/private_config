@@ -1,0 +1,162 @@
+[profile xczimi]
+output=json
+region=ca-central-1
+
+[profile vss]
+output=json
+region=us-west-2
+
+[profile sw-cloud]
+output=json
+region=ca-central-1
+
+[profile mlab]
+output=json
+region=us-east-1
+
+[profile dev-east1]
+output=json
+region=us-east-1
+
+[profile dev-west2]
+output=json
+region=us-west-2
+
+[profile terraform]
+output=json
+region=us-west-2
+
+[profile tfmigration]
+output=json
+region=us-west-2
+
+[profile ops]
+output=json
+region=us-west-2
+
+[profile sbx]
+output=json
+region=us-west-2
+
+[profile devinternal]
+output=json
+region=us-west-2
+
+[profile sandbox]
+output=json
+region=us-west-2
+
+[profile product-dev-pztest]
+output=json
+region=us-west-1
+
+[profile legacy]
+output=json
+region=us-west-2
+
+[profile deploy]
+output=json
+region=us-west-2
+
+[profile vfrs]
+output=json
+region=us-west-2
+
+[profile vfrsprd]
+output=json
+region=us-west-2
+
+[profile cando-shared]
+output=json
+region=us-west-2
+
+[profile cando-devapps]
+output=json
+region=us-west-2
+
+[profile devapps]
+output=json
+region=us-west-2
+
+[profile cando-qaapps]
+output=json
+region=us-west-2
+
+[profile cando-prodapps]
+output=json
+region=us-west-2
+
+[profile huskyprd]
+output=json
+region=us-west-2
+
+[profile tst]
+output=json
+region=us-west-2
+
+[profile cando-apps]
+output=json
+region=us-west-2
+
+[profile cando-dev-apps]
+output=json
+region=us-west-2
+
+[profile cando-qa-apps]
+output=json
+region=us-west-2
+
+[profile cando-legacy]
+output=json
+region=us-west-2
+
+[profile titan-sbx]
+output=json
+region=us-west-2
+
+[profile titanprd]
+output=json
+region=us-west-2
+
+[profile teckprd]
+output=json
+region=us-west-2
+
+[profile cnoocprd]
+output=json
+region=us-west-2
+
+[profile tcenergy]
+output=json
+region=us-west-2
+
+[profile blacklineprd]
+output=json
+region=us-west-2
+
+[profile willprd]
+region=us-west-2
+
+[profile prd]
+region=us-west-2
+
+[profile powellprd]
+region=us-west-2
+
+[profile xamplify]
+region=ca-central-1
+
+[profile tce-prod-user]
+region=us-west-2
+
+[profile tce-prod-cloudnative]
+region=us-west-2
+
+[profile tce-nonprod]
+region=us-west-2
+
+[profile tcenergyprd]
+region=us-west-2
+
+[profile deploy-sbx]
+region=us-west-2
