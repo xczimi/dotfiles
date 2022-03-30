@@ -1,0 +1,10 @@
+# machine-specific configuration
+data:
+{{- if eq .domain "sensorup" }}
+  email: peter.czimmermann@sensorup.com
+  secondaryEmail: xczimi@gmail.com
+{{- else if eq .domain "xczimi" }}
+  email: peter.czimmermann@sensorup.com
+  secondaryEmail: xczimi@gmail.com
+{{- end }}
+  op_account: {{ env "OP_ACCOUNT" | quote }}

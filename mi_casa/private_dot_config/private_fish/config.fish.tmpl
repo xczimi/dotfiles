@@ -1,0 +1,30 @@
+set -e fish_user_paths
+
+set -U fish_user_paths "{{ .chezmoi.homeDir }}/bin"   $fish_user_paths
+
+set -U fish_user_paths "/usr/local/opt/gettext/bin" $fish_user_paths
+set -U fish_user_paths "/usr/local/opt/openssl/bin" $fish_user_paths
+
+set -U fish_user_paths "{{ .chezmoi.homeDir }}/Library/Android/sdk/platform-tools" $fish_user_paths
+
+set -U fish_user_paths "/usr/local/opt/icu4c/bin" $fish_user_paths
+set -U fish_user_paths "/usr/local/opt/icu4c/sbin" $fish_user_paths
+
+set -U fish_user_paths "{{ .chezmoi.homeDir }}/sdk/go1.14.2/bin" $fish_user_paths
+
+set -U fish_user_paths $fish_user_paths "{{ .chezmoi.homeDir }}/Library/Python/3.7/bin"
+set -U fish_user_paths $fish_user_paths "/Library/Frameworks/Python.framework/Versions/3.7/bin"
+
+set -U fish_user_paths "./node_modules/.bin" $fish_user_paths
+
+# tabtab source for serverless package
+# uninstall by removing these lines or running `tabtab uninstall serverless`
+[ -f /usr/local/lib/node_modules/serverless/node_modules/tabtab/.completions/serverless.fish ]; and . /usr/local/lib/node_modules/serverless/node_modules/tabtab/.completions/serverless.fish
+# tabtab source for sls package
+# uninstall by removing these lines or running `tabtab uninstall sls`
+[ -f /usr/local/lib/node_modules/serverless/node_modules/tabtab/.completions/sls.fish ]; and . /usr/local/lib/node_modules/serverless/node_modules/tabtab/.completions/sls.fish
+# tabtab source for slss package
+# uninstall by removing these lines or running `tabtab uninstall slss`
+[ -f /usr/local/lib/node_modules/serverless/node_modules/tabtab/.completions/slss.fish ]; and . /usr/local/lib/node_modules/serverless/node_modules/tabtab/.completions/slss.fishset -g fish_user_paths "/usr/local/opt/gnu-getopt/bin" $fish_user_paths
+
+date
