@@ -2,6 +2,8 @@ set -e fish_user_paths
 
 set -U fish_user_paths "{{ .chezmoi.homeDir }}/bin"   $fish_user_paths
 
+set -U fish_user_paths "/opt/homebrew/bin"   $fish_user_paths
+
 set -U fish_user_paths "/usr/local/opt/gettext/bin" $fish_user_paths
 set -U fish_user_paths "/usr/local/opt/openssl/bin" $fish_user_paths
 
