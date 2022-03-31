@@ -31,6 +31,9 @@ set -U fish_user_paths "./node_modules/.bin" $fish_user_paths
 # uninstall by removing these lines or running `tabtab uninstall slss`
 [ -f /usr/local/lib/node_modules/serverless/node_modules/tabtab/.completions/slss.fish ]; and . /usr/local/lib/node_modules/serverless/node_modules/tabtab/.completions/slss.fishset -g fish_user_paths "/usr/local/opt/gnu-getopt/bin" $fish_user_paths
 
-date
+if status is-interactive
+	date
+end
+
 test -e {$HOME}/.iterm2_shell_integration.fish ; and source {$HOME}/.iterm2_shell_integration.fish
 
